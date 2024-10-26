@@ -1,0 +1,76 @@
+body {
+    background-color: #f0f9ff;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+header, footer {
+    background-color: #258cfb;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #ff8c00;
+    color: #ffffff;
+    border: none;
+}
+
+    .btn:hover {
+        background-color: #ffae42;
+    }
+
+.btn-primary {
+    background-color: #258cfb;
+    color: #ffffff;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #1a6fbd;
+    }
+
+.form-control {
+    border: 1px solid #258cfb;
+    border-radius: 5px;
+}
+
+    .form-control:focus {
+        border-color: #ff8c00;
+        box-shadow: 0 0 5px rgba(255, 140, 0, 0.5);
+    }
+
+.nav-link {
+    color: #258cfb;
+    font-weight: bold;
+}
+
+    .nav-link:hover {
+        color: #ff8c00;
+    }
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card-header {
+    background-color: #258cfb;
+    color: #ffffff;
+}
+
+.card-body {
+    color: #333333;
+}
+
+.table thead {
+    background-color: #258cfb;
+    color: #ffffff;
+}
+
+.table tbody tr:hover {
+    background-color: #f5faff;
+}
